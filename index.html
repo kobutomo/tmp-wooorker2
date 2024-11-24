@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
-a{
-    background-image: url("https://webhook.site/cfbda431-ce0c-4994-893b-9e18372e3dec");
-}
+    <head>
+        <meta charset="UTF-8" />
+        <title>Yay</title>
+    </head>
+    <body>
+        Wow, it works!
+    </body>
+    <script type="speculationrules">
+        {
+            "prerender": [
+                {
+                    "where": { "href_matches": "/*" },
+                    "eagerness": "moderate"
+                }
+            ]
+        }
+    </script>
 </html>
